@@ -12,9 +12,11 @@
 // output: string
 
 var reverseString= function(originalWord){
-  var backwardsWord = ""
-  for (var i = 0; i < originalWord.length; i = i - 1){
-}
+  var backwardsWord = "";
+  for (var i = originalWord.length-1; i >=0; i = i -1){
+    backwardsWord= backwardsWord + originalWord[i]
+  }
+  return backwardsWord
 }
 
 
