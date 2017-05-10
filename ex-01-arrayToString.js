@@ -11,13 +11,46 @@
 // output: string
 
 
-var arrayToString = function(arrayOfStrings){
-  var newString=""
-  for(var index=0; index < arrayOfStrings.length; index=index+1){
-    newString = newString + arrayOfStrings[index]
-  }
-  return newString
+
+
+
+var arrayToString= function(arrayOfVals){
+  var togetherString= ""
+  for (var i= 0; i < arrayOfVals.length; i++){
+    togetherString= togetherString + arrayOfVals[i]
+  } return togetherString
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var arrayToString= function(inputArray){
+//   var newString= ""
+//
+//   for (var i=0; i < inputArray.length; i++){
+//     newString= newString + inputArray[i]
+//   } return newString;
+//
+// }
+
+
+// ****************
+// var arrayToString = function(arrayOfStrings){
+//   var newString=""
+//   for(var index=0; index < arrayOfStrings.length; index=index+1){
+//     newString = newString + arrayOfStrings[index]
+//   }
+//   return newString
+// }
 
 // var arrayToString= function(arrayOfStrings){
 //   var newString=""

@@ -11,20 +11,58 @@
 // input:array of strings
 // output:array of strings
 //
-var simpOrSamp= function(arrayOfStrings){
-  var newArr = []
-  for(var index= 0; index < arrayOfStrings.length; index=index+1){
-    if(arrayOfStrings[index].length >= 6){
-      newArr.push (arrayOfStrings[index] + " Simpson")
+
+var simpOrSamp = function(arrayOfStrings){
+  var name = ""
+  var nameArray= []
+  for (var i=0; i <arrayOfStrings.length; i++){
+    if (arrayOfStrings[i].length < 6){
+      name= arrayOfStrings[i]+ " Sampson"
 
     } else {
-      newArr.push (arrayOfStrings[index] + " Sampson")
-
-    }
-  }
-  return newArr
-
+      name=arrayOfStrings[i] + " Simpson"
+    }nameArray.push(name)
+  } return nameArray
 }
+
+
+
+
+
+
+
+// var simpOrSamp= function(arrayOfStrings){
+//   var fullName= ""
+//   var outputArray= []
+//   for (var i=0; i <arrayOfStrings.length; i++){
+//     if (arrayOfStrings[i].length < 6){
+//       fullName= arrayOfStrings[i] + " Sampson";
+//     } else {
+//       fullName= arrayOfStrings[i] + " Simpson";
+//     } outputArray.push(fullName)
+//
+//   } return outputArray
+//   }
+
+
+
+
+//
+// ****
+// var simpOrSamp= function(arrayOfStrings){
+//   var newArr = []
+//   for(var index= 0; index < arrayOfStrings.length; index=index+1){
+//     if(arrayOfStrings[index].length >= 6){
+//       newArr.push (arrayOfStrings[index] + " Simpson")
+//
+//     } else {
+//       newArr.push (arrayOfStrings[index] + " Sampson")
+//
+//     }
+//   }
+//   return newArr
+//
+// }
 
 
 

@@ -11,15 +11,54 @@
 // input: string, array
 // output: number
 
-var countWordInArray= function(sampleString, sampleArray){
-  var outputNumber= 0
-  for(var i = 0; i < sampleArray.length; i = i + 1){
-    if (sampleString=== sampleArray [i]){
-    outputNumber= outputNumber + 1
-  }
+
+
+var countWordInArray= function(string, array){
+  var outputNumber=0;
+
+  for (var i= 0; i < array.length; i++){
+    if (array[i]===string){
+      ouputNumber= outputNumber++
+    }
+  } return outputNumber
+
 }
-return outputNumber
-}
+
+
+
+
+
+
+
+
+
+// var countWordInArray= function(inputString, inputArray){
+//   var outputNumber=0;
+//
+//   for (var i= 0; i < inputArray.length; i++){
+//     if (inputString===inputArray[i]){
+//       outputNumber++
+//     }
+//
+//   } return outputNumber;
+//
+//
+// }
+
+
+
+
+
+// ******************8******
+// var countWordInArray= function(sampleString, sampleArray){
+//   var outputNumber= 0
+//   for(var i = 0; i < sampleArray.length; i = i + 1){
+//     if (sampleString=== sampleArray [i]){
+//     outputNumber= outputNumber + 1
+//   }
+// }
+// return outputNumber
+// }
 
 
 

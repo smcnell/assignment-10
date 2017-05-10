@@ -13,16 +13,64 @@
 // input: array of strings
 // output: array of strings
 
-var shortiesOnly= function(arrayOfStrings){
-  var newArray= []
-  for (var i = 0; i < arrayOfStrings.length; i = i + 1){
-  if (arrayOfStrings[i].length <= 4){
-    newArray.push(arrayOfStrings[i])
-  }
-}
-return newArray
 
+var shortiesOnly= function(arrayOfStrings){
+  var finalArray= []
+  for (i=0; i < arrayOfStrings.length; i++){
+    if (arrayOfStrings[i].length <= 4){
+      finalArray.push(arrayOfStrings[i])
+    }
+  }return finalArray
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var shortiesOnly=function(arrayOfStrings){
+//   var outputArray= [];
+//   for (var i= 0; i < arrayOfStrings.length; i++){
+//     if (arrayOfStrings[i].length <=4){
+//       outputArray.push(arrayOfStrings[i])
+//     }
+//
+//   }return outputArray;
+//
+// }
+
+
+
+
+
+
+
+
+//
+// ****
+// var shortiesOnly= function(arrayOfStrings){
+//   var newArray= []
+//   for (var i = 0; i < arrayOfStrings.length; i = i + 1){
+//   if (arrayOfStrings[i].length <= 4){
+//     newArray.push(arrayOfStrings[i])
+//   }
+// }
+// return newArray
+//
+// }
 
 
 

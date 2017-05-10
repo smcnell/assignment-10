@@ -10,16 +10,39 @@
 // input: string, array
 // output: boolean
 
-var wordMatchInArray= function(sampleString, sampleArray){
-  var match=false;
-  for(var i = 0; i < sampleArray.length; i = i + 1){
-    if (sampleString=== sampleArray[i]){
-      match=true
 
-    }
+var wordMatchInArray=function(string, array){
+  var doesitmatch=false
+
+  for (i=0; i < array.length; i++){
+    if (array[i] ===string){
+      doesitmatch=true
   }
-return match
+}return doesitmatch
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var wordMatchInArray= function(sampleString, sampleArray){
+//   var match=false;
+//   for(var i = 0; i < sampleArray.length; i = i + 1){
+//     if (sampleString=== sampleArray[i]){
+//       match=true
+//
+//     }
+//   }
+// return match
+// }
 
 
 

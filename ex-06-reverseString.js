@@ -11,6 +11,11 @@
 // input: string
 // output: string
 
+
+
+
+
+
 var reverseString= function(originalWord){
   var backwardsWord = "";
   for (var i = originalWord.length-1; i >=0; i = i -1){

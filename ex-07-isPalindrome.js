@@ -9,6 +9,12 @@
  * from the previous queestion
 */
 
+
+
+
+
+
+
 var isPalindrome= function(originalWord){
   palidromeStatus= false
   var backwardsWord = ""
